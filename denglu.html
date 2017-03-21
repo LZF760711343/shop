@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录界面</title>
+		<link rel="stylesheet" href="css/denglu.css" />
+	</head>
+	<!--
+    	作者：廖泽峰
+    	时间：2016-08-17
+    	描述：  这个登录界面主要用百分比定位，所以可以自适应页面的大小，页面简洁干净，
+    	              登录界面的主内容用表单套起来，里面放用户名，密码，和两个按钮，并且还有
+    	              一个二维码隐藏起来，当移入小二维码的时候表单就隐藏出现大二维码，供用户
+    	              用手机快速登录实现的功能有：点击文本框对应的文本框背景颜色改变，点击其
+    	              它背景恢复原始色，首先输入用户名，会先判断是否是汉字，如果是汉字会在文
+    	              本框后面的p标签显示警告内容，提示输入手机号或者qq邮箱，再次点击文本框
+    	              时，p标签的内容也会清空。如果不是汉字，它就会判判断用户名文本框输入的
+    	              内容的格式，这里运用正则表达式进行判断，格式对了就下来就会判断密码是否
+    	             为空或者是否有值，如果用户名，密码都正确的话就会跳转的下个页面，否则就
+    	             会在文本框的后边提出警告的错误并且给出错误的原因，重置按钮的功能是恢复
+    	             表单的原始值。登录账号有两个：18819352078 760711343@qq.com
+    	                                         登录密码为相同的：123456
+    -->
+	<body>
+		    <div  class="tubiaoimg">
+			    <img src="img/tubiao.gif"/>
+		    </div>
+		    <h1 class="tubiaoH1">用户登录界面
+		    </h1>
+		
+		    <div class="divdenglu"> 
+		    	<img src="img/dagou.jpg" class="dagougou" id="dagougou"/>
+			    <img src="img/rwm.png"  class="erweima" id="erweima"/>
+			    <form name="form" method="post" id="formdenglu">
+				    <p class="divdengluP">
+		    	        <img src="img/yonghuming.JPG"/>
+		    	        <input type="text" id="t1" class="textfu" placeholder="用户名"/>
+		    	        <span id="spanyonghu">
+		    	        </span>
+		            </p>
+		            <p>
+		    	        <img src="img/mima.jpg"/>
+		    	        <input type="password" id="m1" class="textfu" placeholder="密码"/>
+		    	        <span id="spanmima">
+		    	        </span>
+		            </p>
+		            <p>
+		            	<input type="button" value="登  录" class="inputti" id="denglu"/>
+		                <input type="reset" value="重  置" class="inputti" id="chongzhi"/>
+		            </p>
+		            <img src="img/05b2OOOPIC9d_1024.jpg" id="qitadenglu"/>
+			    </form>
+			    <div id="erweimafada">
+			    	<img src="img/rwm.png"/>
+			        <p>手机扫码快速登录
+			        </p>
+			    </div>
+		    </div>
+		<script type="text/javascript" src="js/denglu.js" ></script>
+	</body>
+</html>

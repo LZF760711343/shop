@@ -1,0 +1,158 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	
+	font-family: "微软雅黑";
+	
+}
+
+.public{
+	width: 1191px;
+	margin: 0 auto 0;
+}
+
+.clearfix {
+	overflow: hidden;
+	/*_是为了兼容ie6的*/
+	_zoom: 1;
+}
+
+
+.progress{
+	width: 1191px;
+	margin: 0 auto 0;
+}
+
+.progress_img{
+	width: 992px;
+	margin: 0 auto 0;
+}
+
+.shangjia{
+	width: 1191px;
+	margin: 0 auto 0;
+	font-size:14px;
+	
+}
+
+.shangjia_content{
+	width: 992px;
+	height: 21px;
+	margin: 0 auto 0;
+	
+	
+}
+
+.shangjia_content ul{
+	list-style: none;
+}
+
+.shangjia_content ul li{
+	float: left;
+	line-height: 21px;
+}
+
+.shangjia_content ul li:nth-child(2){
+	
+	margin: 2px 5px 0px 10px;
+}
+
+.shangjia_content ul li:nth-child(4){
+	font-weight: bold;
+}
+
+.good_buy{
+	margin-top: 10px;
+	margin-bottom: 55px;
+	
+}
+
+.good_buy_top{
+	width: 992px;
+	height: 36px;
+	margin: 0 auto 0;
+	border: 1px solid #CCCCCC;
+	border-radius: 3%;
+	font-size:14px;
+}
+
+.good_buy_top div{
+	float: left;
+	
+}
+
+.good_buy_top div:nth-child(1){
+	width: 446px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #ebebeb;
+}
+
+.good_buy_top div:nth-child(2){
+	width: 131px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #ebebeb;
+}
+
+.good_buy_top div:nth-child(3){
+	width: 168px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #ebebeb;
+}
+
+.good_buy_top div:nth-child(4){
+	width: 158px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #ebebeb;
+}
+
+.good_buy_top div:nth-child(5){
+	width: 81px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #ebebeb;
+}
+
+.good_buy_top div+div{
+	margin-left: 2px;
+}
+
+.good_buy_mid{
+	width: 992px;
+	margin: 0 auto 0;
+}
+
+.good_buy_bottom{
+	width: 992px;
+	margin: 0 auto 0;
+}
+
+.total{
+	width: 1191px;
+	margin:0 auto 0;
+	margin-bottom:75px ;
+	
+	
+}
+
+.total_img{
+	width: 990px;
+	margin: 0 auto 0;
+}
+
+.jiesuan{
+	margin-left:865px;
+	margin-top: 30px;
+}
+.jiesuan img:hover{
+	cursor: pointer;
+}
