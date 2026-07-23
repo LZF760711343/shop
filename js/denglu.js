@@ -1,6 +1,9 @@
-window.user='18819352078';
-window.password='123456';
-window.youxiangzhi ='760711343@qq.com';
+// Demo-only placeholder credentials. This is a static front-end demo with no
+// backend; the "login" is purely client-side and easily bypassed, so it must
+// never hold real accounts, passwords, or personal contact details.
+window.user='13800138000';
+window.password='demo1234';
+window.youxiangzhi ='10001@qq.com';
 
 var yonghumingkuang = document.getElementById('spanyonghu');
 var mimakuang = document.getElementById('spanmima');
